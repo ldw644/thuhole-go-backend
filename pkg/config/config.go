@@ -35,6 +35,7 @@ func refreshConfig() {
 	refreshGeoIpDb()
 }
 
+//viper是一个写入配置的包
 func InitConfigFile() {
 	viper.SetConfigType("json")
 	viper.AddConfigPath(".")
